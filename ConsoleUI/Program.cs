@@ -28,7 +28,6 @@ namespace ConsoleUI
                 Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress }");
             }
 
-            Console.ReadLine();
-        }
+            Console.ReadLine(); 
     }
 }
