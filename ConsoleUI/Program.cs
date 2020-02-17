@@ -22,12 +22,13 @@ namespace ConsoleUI
             {
                 employees.Add(accountProcessor.Create(person));
             }
-            
+
             foreach (var emp in employees)
             {
-                Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress }");
+                Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAddress}");
             }
 
-            Console.ReadLine(); 
+            Console.ReadLine();
+        }
     }
 }
